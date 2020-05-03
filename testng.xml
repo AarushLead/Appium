@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Suite">
+	<test thread-count="5" name="APIDEMOSSCRIPT">
+		<!-- <classes>		
+			<class name="com.appium.script.ApiDemosGesture" />
+		</classes> -->
+		<!-- <packages> <package name="com.appium.ecommercebase" /> </packages> -->
+		<!-- <classes>
+			<class name="com.appium.ecommercescript.ECommerce">
+			    <methods>
+			        <include name="ecommercevalid_tc1"></include>
+			        <include name="eCommerce_tc3"></include>
+			        <include name="validate_checkoutProduct"></include>
+			        <include name="validate_productSum"></include>
+			    </methods>			    
+			</class>
+		</classes> -->
+		<!-- <classes>
+			<class name="com.appium.baseother.ZivameBaseTest"></class>
+	     </classes> -->
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
