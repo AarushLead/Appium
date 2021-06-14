@@ -3,41 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Ecommerce Suite]">
   <test thread-count="5" name="APIDEMOSSCRIPT(failed)">
     <classes>
-      <class name="com.appium.script.Miscelleneous">
+      <class name="com.appium.chromescript.GesturesSwipe">
         <methods>
-          <include name="miscell"/>
-          <include name="setup"/>
+          <include name="SwipeVertically"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.appium.script.Miscelleneous -->
-      <class name="com.appium.script.ApiDemosOperation">
-        <methods>
-          <include name="UiAutomatorExample_viewsClick"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.appium.script.ApiDemosOperation -->
-      <class name="com.appium.script.DragAndDrop">
-        <methods>
-          <include name="dragAndDropOps"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.appium.script.DragAndDrop -->
-      <class name="com.appium.script.ApiDemosGesture">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="tapOperationAndLongPress"/>
-        </methods>
-      </class> <!-- com.appium.script.ApiDemosGesture -->
-      <class name="com.appium.script.SwipeOperation">
-        <methods>
-          <include name="swipeOps"/>
-          <include name="setup"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.appium.script.SwipeOperation -->
+      </class> <!-- com.appium.chromescript.GesturesSwipe -->
     </classes>
   </test> <!-- APIDEMOSSCRIPT(failed) -->
 </suite> <!-- Failed suite [Ecommerce Suite] -->

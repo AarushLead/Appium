@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Suite">
+	<test name="APIDEMOSSCRIPT">
+		<classes>
+			<class name="com.appium.chromescript.ZivameScript">
+				<methods>
+					<include name="loginScript"></include>
+					<include name="clickOnCatagoryProduct"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

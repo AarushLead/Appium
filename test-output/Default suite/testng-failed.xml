@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.appium.ecommercescript.ECommerce">
+      <class name="com.appium.chromescript.GesturesSwipe">
         <methods>
-          <include name="eCommerce_tc3"/>
-          <include name="ecommercevalid_tc1"/>
+          <include name="testHomeKey"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- com.appium.ecommercescript.ECommerce -->
+      </class> <!-- com.appium.chromescript.GesturesSwipe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -57,12 +57,6 @@ public class AppiumPropertyManager {
 		this.hostURl = prop.getProperty("appium.server.url");
 		return this.hostURl;
 	}
-
-	public String getPortNO() {
-		this.portNo = prop.getProperty("appium.server.port");
-		return this.portNo;
-	}
-
 	public String getBrowserName() {
 		this.browserName = prop.getProperty("browser.name");
 		return this.browserName;
@@ -120,13 +114,13 @@ public class AppiumPropertyManager {
 
 	/* To get the Application Package name */
 	public String getApplicationPackage() {
-		this.appPackage = prop.getProperty("android.generalStore.packageName");
+		this.appPackage = prop.getProperty("android.demos.packageName");
 		return this.appPackage;
 	}
 
 	/* To get the Application activity name */
 	public String getApplicationActivity() {
-		this.appActivity = prop.getProperty("android.generalStore.activityName");
+		this.appActivity = prop.getProperty("android.demos.activityName");
 		return this.appActivity;
 	}
 
