@@ -1,8 +1,0 @@
-com\appium\chromescript\ZivameScript.class
-com\appium\chromescript\GestureTap.class
-com\appium\chromescript\JsTest.class
-com\appium\chromescript\AndInteractWithApps.class
-com\appium\chromescript\EnvironmentTest.class
-com\appium\chromescript\AWSBase.class
-com\appium\chromescript\GesturePressAndLongPress.class
-com\appium\chromescript\GesturesSwipe.class
